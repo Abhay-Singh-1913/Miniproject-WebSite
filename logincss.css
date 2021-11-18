@@ -1,32 +1,26 @@
 body {
-    background-color: rgb(187, 237, 246);
+    background-image: url(https://wallpaperaccess.com/full/1316984.jpg);
 }
 div{
     margin: auto;
     width: 40%;
     padding:1px 7px 15px 5px;
     box-shadow: 3px 3px rgba(0, 2, 133, 0.472);
-    background-color:rgb(235, 234, 229);
     text-align: center;
     border:none ;
-    background-color: gainsboro;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdwj-AK96WLeVNBO2uRi0o2-rBGF_INdcQj5VwkPxKnIU50jRLtfMtybxJnxCiEa677Yc&usqp=CAU);
 
 }
 input{
-    border:2px solid darkblue;
-    box-shadow:2px 2px darkslateblue;
-    background-color: rgba(163, 127, 73, 0.452);
+    border:2px solid rgb(255, 115, 0);
+    background-color: rgba(255, 238, 2, 0.603);
 
 }
 #login{
-    background-image: linear-gradient(to top left,
-    rgba(0, 0, 0, .2),
-    rgba(0, 0, 0, .2) 30%,
-    rgba(0, 0, 0, 0));
     border-radius: 3px;
     width: 90%;
-    background-color: rgb(91, 235, 8);
-    box-shadow:2px 2px darkgreen;
+    background-color: rgb(255, 240, 31);
+    box-shadow:2px 2px rgb(143, 143, 143);
     max-width: 250px;
     padding: 5px 50px 5px 50px;
     margin:10px 2px 10px 2px;
@@ -35,7 +29,7 @@ h3{
     padding: 10px;
     margin: 10px;
     text-decoration: underline ;
-    background-color: rgba(200, 217, 219, 0.363);
+    background-color: rgba(255, 152, 34, 0.856);
     font-family: Arial, Helvetica, sans-serif;
 }
 #mail{
