@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/826921.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.div{
+    margin: auto;
+    margin-top: 100px;
+    width: 45%;
+    padding: 1px 7px 15px 5px;
+    /* box-shadow: 5px 3px rgba(0, 0, 0, 0.246); */
+    text-align: left;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(240, 248, 255, 0.383);
+    /* background-image: url(https://media.istockphoto.com/photos/wooden-tabletop-over-defocused-kitchen-background-picture-id1071414426?k=20&m=1071414426&s=612x612&w=0&h=tS9t_WsbTv_VPGRkW05YAPc37mJK8hfRJKapJ69HTy0=); */
+}
+
+input {
+    width: 35%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.67);
+    padding-left: 5px;
+    border-radius: 7px;
+}
+
+#login {
+    border-radius: 3px;
+    width: 90%;
+    background-color: rgb(129, 205, 235);
+    box-shadow: 2px 2px rgb(104, 89, 89);
+    max-width: 250px;
+    padding: 5px 50px 5px 50px;
+    margin: 10px 2px 10px 150px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: underline;
+    background-color: rgba(0, 255, 255, 0.192);
+    /* background-image: url(https://media.istockphoto.com/photos/light-brown-wood-texture-background-picture-id958689614?k=20&m=958689614&s=612x612&w=0&h=DPV--DVetoqC7UWDO4XsAAgB-y8M0gxv18EB8G1xf3E=); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mail {
+    margin: 10px;
+    
+}
+
+#password {
+    margin: 10px;
+}
+
+a {
+    margin: 5px;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+.button-name {
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+label{
+    margin-left: 20px;
+}
+#button{
+    font-size: 10px;
+    background: aliceblue;
+    border: 2px solid;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2px 2px 2px 2px;
+}
+div #button{
+    margin-left: 20px;
+    margin-right: 20px;
+}
