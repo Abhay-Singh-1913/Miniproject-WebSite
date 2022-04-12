@@ -1,103 +1,190 @@
 body{
     background-color:rgb(255, 255, 255);
+    margin: auto;
 }
 .nav{
     width: 35px;
     display: block;
-    box-shadow:2px 1px black;
+    box-shadow:2px 1px gray;
     padding:1px 1px;
-    /* background-color: rgb(155, 151, 146); */
+    background-color:black;
 }
 .bar1{
+    box-sizing: border-box;
     height:2px;
-    background-color: rgb(0, 0, 0);
-    margin:7px 5px 3px 5px;
+    background-color:white;
+    padding: 2px;
+    margin:2px 3px 3px 3px;
+    border-radius: 5px;
+}
+div a .bar1:hover{
+    width: 70%;
+}
+div a .bar2:hover{
+    width: 30%;
+}
+div a .bar3:hover{
+    width: 60%;
 }
 .bar2{
+    box-sizing: border-box;
     height:2px;
-    background-color: rgb(0, 0, 0);
-    margin:2px 5px 3px 5px;
+    padding: 2px;
+    background-color:white;
+    margin:3px 3px 3px 3px;
+    border-radius: 5px;
 }.bar3{
+    box-sizing: border-box;
     height:2px;
-    background-color: rgb(0, 0, 0);
-    margin:2px 5px 5px 5px;
+    padding: 2px;
+    background-color: white;
+    margin:3px 3px 2px 3px;
+    border-radius: 5px;
 }
 #search{
     height:30px;
     width:300px;
     border-radius: 20px;
-    margin:10px 0px 10px 30px;
+    margin: 3px 7px 3px 3px;
     padding-left: 30px;
+    padding-bottom: 7px;
 }
-
 header{
+
     margin: auto;
-    background-color:white;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLWxb4TOzZAd-DT9iKbaEdITorNIXpnygMg&usqp=CAU);
     background-origin: padding-box;
     box-shadow:2px 2px 2px 2px rgba(97, 97, 97, 0.438);
-    margin: 5px 2px;
+    margin: 5px 2px 15px 2px;
     padding: 10px 5px;
 }
 #login{
-    margin: 10px 2px 10px 340px;
+    margin: auto;
+    padding:5px 10px;
+    border:2px solid black;
+    border-radius:15px;
+    background-color:rgb(238, 255, 0);
+    margin: 10px 2px 10px 250px;
     text-decoration: none;
 }
 #signup{
-    margin: 10px 2px 10px 20px;
+    margin: auto;
+    padding:5px 10px;
+    border:2px solid black;
+    border-radius:15px;
+    background-color:rgb(70, 97, 255);
+    margin: 10px 2px 10px 10px;
     text-decoration: none;
+    color:rgb(238, 255, 0);
 }
 .nav{
     border:1px solid black;
 }
 #search-button{
-    border-radius:5px;
-    background-color: rgba(255, 255, 255, 0.712);
+    margin: auto;
+    /* border-radius:5px;
+    background-color: rgba(251, 255, 38, 0.712);
     height:25px;
-    width:70px;
+    width:70px; */
 }
 li{
     list-style: none;
 }
 .namelist1{
     padding:5px 10px;
-    background-color:rgb(0, 255, 55);
-    margin:30px 20px 10px 20px;
-    border:2px solid rgb(0, 0, 0) ;
+    background-color:rgba(154, 191, 250, 0.478);
+    margin:15px 20px 10px 20px;
+    border:1px solid rgb(0, 0, 0);
     box-shadow:2px 2px rgba(97, 97, 97, 0.438);
 }
 .namelist2{
     padding:5px 10px;
-    background-color:rgb(40, 214, 245);
+    background-color:rgba(154, 191, 250, 0.478);
     margin:10px 20px;
-    border:2px solid rgb(0, 0, 0) ;
+    border:1px solid rgb(0, 0, 0) ;
     box-shadow:2px 2px rgba(97, 97, 97, 0.438);
 }
 .namelist3{
     padding:5px 10px;
-    background-color:rgb(246, 65, 65);
+    background-color:rgba(154, 191, 250, 0.478);
     margin:10px 20px;
-    border:2px solid rgb(0, 0, 0) ;
+    /* border:1px solid rgb(0, 0, 0) ; */
     box-shadow:2px 2px rgba(97, 97, 97, 0.438);
 }.namelist4{
     padding:5px 10px;
-    background-color:rgb(253, 249, 11);
+    background-color:rgba(154, 191, 250, 0.478);
     margin:10px 20px;
-    border:2px solid rgb(0, 0, 0) ;
-    box-shadow:2px 2px rgba(97, 97, 97, 0.438);
+    /* border:2px solid rgb(0, 0, 0) ; */
+    box-shadow:4px 4px 2px 2px rgba(97, 97, 97, 0.438);
 }
 .logo{
+    box-sizing: border-box;
     font-weight: 600;
     text-decoration: underline;
     font-size: 21px;
-    margin-left:10px;
+    margin:0px 5px 0px 5px;
     background-color: rgb(70, 97, 255);
     border-radius: 6px;
-    padding:5px;
+    padding:3px 5px 2px 5px;
     color: rgb(238, 255, 0);
+
 }
-.logpage{
+.menu-list{
     margin: auto;
+    margin: 5px 2px;
+    padding: 2px 2px 3px 2px;
+    box-shadow:4px 2px 2px 2px rgba(197, 197, 197, 0.842);   
 }
-.searchtab{
+.text{
+    border-radius:10px;
+    width: fit-content;
+    padding:3px;
+    background-color:none;
+}
+.search{
+    border: 2px solid black;
+    border-radius:15px;
+    background-color: rgb(230, 230, 230);
+    padding: 0%;
+}
+#icon{
+    width:30px;
+    height:30px;
+    
+    border-radius:50%;
+}
+td{
+    box-sizing: border-box;
+}
+#registed{
+    box-sizing: border-box;
     margin: auto;
+    border-radius: 50%;
+    padding: 0px 2px 0px 2px;
+    border:1px solid black ;
+    margin:0px 0px 30px 3px;
+    color: black;
+    font-size: 7px;
+    text-decoration:underline rgba(70, 97, 255);
+}
+.search-bar{
+    display: inline-flex;
+}
+aside{
+    width: 55%;
+    padding-left: .5rem;
+    margin-left:0px;
+    float: right;
+  }
+  footer{
+      background-color: rgba(102, 170, 170, 0.862);
+  }
+  footer a:hover{
+      color: rgb(2, 43, 224);
+  }
+img{
+    width:30px;
+}
+li{
+    display: inline-flex;
 }
